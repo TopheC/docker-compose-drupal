@@ -25,7 +25,7 @@ web:
 
 # MySQL Server
 database:
-  image: mariadb:10
+  image: mysql:5
   environment:
     MYSQL_USER: drupal
     MYSQL_PASSWORD: drupal
